@@ -6,60 +6,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agustin Martinez</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/ac082700a3.js" crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <link rel="stylesheet" href="normalize.css">
-<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header class="contendor-index">
+    <div class="menu-fixed">
+        <ul>
+           <!--  INICIO -->
+            <a href="#inicio" class="activo"  title="Inicio"> 
+                <li>
+                    <i class="fas fa-home"></i>
+                </li>
+            </a>
+          <!--   SOBRE MI -->
+            <a href="#sobre-mi"  title="Sobre Mi"> 
+                <li>
+                    <i class="fas fa-user"></i>
+                </li>
+            </a>
+            <!-- PROYECTOS -->
+            <a href="#proyectos" title="Proyectos"> 
+                <li>
+                    <i class="fas fa-folder"></i>
+                </li>
+            </a>
+            <!-- HABILIDADES -->
+            <a href="#habilidades" title="Habilidades"> 
+                <li>
+                    <i class="fas fa-code"></i>
+                </li>
+            </a>
+            <!-- CONTACTO -->
+            <a href="#contacto"  title="Contacto"> 
+                <li>
+                    <i class="fas fa-envelope"></i>
+                </li>
+            </a>
+          
+        </ul>
+    </div>
+    <header class="contendor-index" id="inicio">
+
+
+       
+
         <div class="index-saludo ">
-            <p class="animate__animated animate__slideInLeft">Ho</p>
-            <p class="animate__animated animate__slideInLeft">l a</p>
+            <p class="index-saludo-p">Ho</p>
+            <p class="index-saludo-p">l a</p>
         </div>
         <div class="index-soy">
-            <h3 class="animate__animated animate__slideInRight"> soy </h3>
-            <h3 class="animate__animated animate__slideInRight">Agustin Martinez</h3>
-            <h4 class="animate__animated animate__slideInRight">Frontend Dev</h4>
+            <h3 class=""> soy </h3>
+            <h3 class="">Agustin Martinez</h3>
+            <h4 class="">Software Development</h4>
         </div>
+        
     </header>
-    <div class="sobre-mi">
-        <div class="sobre-mi-title">
-            <h3>So</h3>
-            <h3>bre</h3>
-            <h3>mi</h3>
+    <div class="sobre-mi" id="sobre-mi">
+        <div class="container-sobre-mi">
+            <div class="sobre-mi-title">
+               <h3>¿Quien</h3>
+               <h3>Soy?</h3>
+            </div>
+            <div class="sobre-mi-text">
+                <p class="animate__jello">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto saepe tenetur animi! Saepe numquam exercitationem enim, dicta tempore deleniti. A, obcaecati aperiam sed illo repellendus quasi deleniti voluptatem natus ipsum, suscipit reiciendis amet cupiditate iste alias temporibus totam? Repellendus nam, modi laudantium ad deserunt molestiae est reiciendis numquam, debitis, nobis blanditiis. Ullam quo, possimus laboriosam provident magni tempora molestiae nulla odit doloremque, natus rem facere odio earum numquam quibusdam porro!</p>
+               
+                <a href="pdf/AgustinMartinezCV.pdf" target="_blank">Descargar Cv</a>
+            </div>
         </div>
-        <div class="sobre-mi-text">
-            <p class="animate__jello">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit veniam nobis delectus. Repellendus in saepe sunt dolorem voluptatem fuga nisi quod, reiciendis temporibus porro eligendi, illo dolor maxime, nulla quia molestiae placeat ut cum! Adipisci atque ipsam quidem delectus, minima quam iste sint accusamus assumenda enim sequi suscipit sed nostrum, tenetur expedita ea autem ipsum labore sapiente perspiciatis asperiores sunt provident neque quia. Quo odio rerum repellat, perferendis distinctio consequuntur ut possimus tenetur accusamus neque quaerat delectus cupiditate, ipsa blanditiis.</p>
-           
-            <a href="pdf/Servicio por campaña (2).pdf" target="_blank"> <button>Descargar Cv</button></a>
-        </div>
+        
     </div>
-    <div class="proyectos">
-        <h2>Proyectos</h2>
+    <div class="proyectos " id="proyectos">
+        
         <div class="contenedor-proyectos">
-            <div class="proyectos-cu">
-                <img loading="lazy" src="https://images.unsplash.com/photo-1621264872587-10025d13a1a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=723&q=80" alt="">
-                <div class="imagen-overlay">
-                    <div class="imagen-overlay-title">Lorem ipsum dolor sit.</div>
-                    <p class="imagen-descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, consequuntur.</p>
+            <div class="proyectos_titulo">
+                <h2>Proyectos</h2>
+            </div>
+            <div class="contenedor_proyectos_flex">
+                <div class="proyectos_info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque aliquet amet consectetur vitae, pretium in. Gravida libero, consequat magna sit massa. Id a ut faucibus eu risus, feugiat. Turpis pellentesque arcu ullamcorper pretium at duis auctor accumsan.</p>
+                </div>
+                
+                <div class="proyectos_img">
+                    <img src="https://images.unsplash.com/photo-1638482091986-6901ddf8de43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=467&q=80" alt="">
                 </div>
             </div>
-            <div class="proyectos-cu">
-                <img loading="lazy" src="https://images.unsplash.com/photo-1621264872587-10025d13a1a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=723&q=80" alt="">
-                <div class="imagen-overlay">
-                    <div class="imagen-overlay-title">Lorem ipsum dolor sit.</div>
-                    <p class="imagen-descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, consequuntur.</p>
-                </div>
+            <div class="contenedor-btn">
+                <a href="">Ver Más proyectos</a>
             </div>
         </div>
+        
     </div>
+    <section class="contenedor-habilidades" id="habilidades">        
+        <div class="habilidades">
+            <div class="habilidades_titulo">
+                <h1 class="habilidades__titulo">Habilidades</h1>
+            </div>
+            <div class="habilidades__lista">
+                <li class="habilidades__elementos">
+                    <img loading="lazy" class="habilidades__img"  src="src/img/html.svg" alt="html" title="HTML">
+                    <span class
+                </li>
+                <li class="habilidades__elementos">
+                    <img loading="lazy" class="habilidades__img" src="src/img/css.svg" alt="css" title="Css">
+            
+                </li>
+                <li class="habilidades__elementos">
+                    <img loading="lazy" class="habilidades__img" src="src/img/js.svg" alt="Javascript" title="Javascript">
+                    
+                </li>
+                <li class="habilidades__elementos">
+                    <img loading="lazy"  class="habilidades__img" src="src/img/bootstrap.svg" alt="bootstrap" title="Bootstrap">
+                    
+                </li>
+                <li class="habilidades__elementos">
+                    <img loading="lazy" class="habilidades__img"  src="src/img/react.svg" alt="react" title="React">
+                    
+                </li>
+                <li class="habilidades__elementos">
+                    <img loading="lazy" class="habilidades__img" src="src/img/git.svg" alt="git" title="Git">
+                
+                </li>
+                <li class="habilidades__elementos">
+                    <img loading="lazy" class="habilidades__img" src="src/img/sass.svg" alt="sass" title="Sass">
+                
+                </li>
+                <li class="habilidades__elementos">
+                    <img loading="lazy"  class="habilidades__img" src="https://miro.medium.com/max/1400/1*UBZYjKJigowCJOK4SaHicw.jpeg" title="Figma">
+                    
+                </li>
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto"> 
+        <h3 class="contacto__titulo">Contacto</h3>
+        <div class="contenedor-formulario">
+            <h4 class="contenedor-formulario_parrafo">Lorem ipsum dolor sit amet consectetur.</h4>
+            <!-- <div class="contenedor-formulario__form">
+                <form class='formulario-de-contacto' name='contact' id='form' method='post'><input type='hidden' name='form-name' value='contact' />
+                     <label  class='formulario-de-contacto__label' name='Nombre' for="">Nombre</label> 
+                     <input id="name" class='formulario-de-contacto__input' name='Nombre' type="text" placeholder="Nombre">
+                     <label class='formulario-de-contacto__label' name='Correo' for="">Correo </label> 
+                     <input id="email" class='formulario-de-contacto__input' name='Correo' type="text" placeholder="Correo Electronico">
+                     <label class='formulario-de-contacto__label' name='Mensaje' for="">Mensaje</label> 
+                     <textarea id="mensaje" class='formulario-de-contacto__textarea' name="Mensaje" id="" cols="30" rows="10"  placeholder="Escribe tu mensaje"></textarea>
+                     <button class='formulario-de-contacto__btn' type="submit" >Enviar</button>
+                     <p class="warning" id="warning"></p>
+                 </form>
+            </div> -->
+            <div class="container-contacto-button">
+                <a  class="contenedor-formulario_mail" href="mailto:abel.am91@gmail.com">Enviame un mail!</a>
+                <a  class="contenedor-formulario_wsp">Enviame un WhatsApp!</a>
+            </div>
+            
+            <div class="redes">
+                    <li><a href="https://github.com/agusmartinez30"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/abel-martinez-5a3ba9197/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </div>
+        </div>
+    </section> 
+    <footer class="pie-de-pagina">
+        <div class="pie-de-pagina__by">
+            <p>Developed and designed by Agustin Martinez. ©2022. All rights reserved. 🚀</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="animaciones.js"></script>
 </body>
 </html>
